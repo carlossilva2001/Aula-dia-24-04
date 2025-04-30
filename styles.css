@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    padding: 0 30px 0 30px;
+    text-align: center;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+header img {
+    max-width:100px;
+    height: auto;
+}
+
+.corpo {
+    display: flex;;
+    padding: 20px;
+}
+
+.texto {
+    border: solid 1px #000;
+    display: block;
+    width: 80%;
+    padding: 20px;
+    text-align: justify;
+}
+
+.images{
+    border: solid 1px #000;
+    width: 20%;
+}
+
+.images img {
+    align-content: center;
+    display: block;
+    float: right;
+    height: auto;
+    max-width: 200px;
+    height: auto;
+    margin: 0 0 20px 20px;
+}
